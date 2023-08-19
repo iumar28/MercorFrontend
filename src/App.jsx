@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import "../src/App.css";
+import image from "./assets/home.jpg";
+import "./App.css";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       {/* Your main content goes here */}
       <div class="center-container">
     
-  <img class="centered-image" src="src/assets/home.jpg" alt="image"/>
+  <img class="centered-image" src={image} alt="image"/>
 </div>
     </div>
 
