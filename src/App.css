@@ -1,0 +1,9 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-image {
+    width: 600px;
+    height: 500px;
+}
